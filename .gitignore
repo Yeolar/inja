@@ -16,6 +16,13 @@
 *.dylib
 *.dll
 
+# Fortran module files
+*.mod
+*.smod
+
+# Python compiled files
+*.py[cod]
+
 # Compiled Static libraries
 *.lai
 *.la
@@ -27,17 +34,6 @@
 *.out
 *.app
 
-# Build Folders
-build
-buildc
-dist
-
-# Coveralls repo token
-.coveralls.yml
-
-.vscode
-
-doc/html
-doc/latex
-
-examples
+/_build/
+/_deps/
+/inja/inja-config.h

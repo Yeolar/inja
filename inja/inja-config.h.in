@@ -1,0 +1,6 @@
+#pragma once
+
+/* meta */
+
+#define INJA_PACKAGE "@PROJECT_NAME@"
+#define INJA_VERSION "@VERSION_MAJOR@.@VERSION_MINOR@.@VERSION_PATCH@"
