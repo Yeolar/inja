@@ -1,0 +1,11 @@
+#
+# CMake package configuration file for inja
+#
+
+@PACKAGE_INIT@
+
+set_and_check(INJA_INCLUDE_DIR "@PACKAGE_CMAKE_INSTALL_INCLUDEDIR@")
+
+if(NOT inja_FIND_QUIETLY)
+  message(STATUS "Found inja: ${PACKAGE_PREFIX_DIR}")
+endif()
